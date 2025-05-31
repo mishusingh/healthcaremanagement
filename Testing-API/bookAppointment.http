@@ -1,0 +1,10 @@
+POST http://localhost:8082/api/v1/appointments
+Content-Type: application/json
+
+{
+  "patientId": 1,
+  "doctorId": 3,
+  "appointmentDate": "2025-06-15 10:17:12",
+  "status": "Scheduled"
+
+}

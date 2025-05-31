@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/PatientService/pom.xml" />
+        <option value="$PROJECT_DIR$/DoctorService/pom.xml" />
+        <option value="$PROJECT_DIR$/AppointmentService/pom.xml" />
+        <option value="$PROJECT_DIR$/NotificationService/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaService/pom.xml" />
+        <option value="$PROJECT_DIR$/GatewayService/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

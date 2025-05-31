@@ -1,0 +1,24 @@
+
+server:
+  port: 8888
+
+spring:
+  application:
+    name: ConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/your-username/your-config-repo.git
+          default-label: main
+          clone-on-start: true
+          force-pull: true
+  profiles:
+    active: git
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
