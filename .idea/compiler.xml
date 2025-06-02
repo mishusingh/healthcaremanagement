@@ -19,7 +19,7 @@
         </processorPath>
         <module name="DoctorService" />
       </profile>
-      <profile name="Annotation profile for PatientService" enabled="true">
+      <profile name="Annotation profile for AppointmentService" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -28,8 +28,8 @@
         </processorPath>
         <module name="NotificationService" />
         <module name="PatientService" />
-        <module name="EurekaService" />
         <module name="AppointmentService" />
+        <module name="EurekaService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
