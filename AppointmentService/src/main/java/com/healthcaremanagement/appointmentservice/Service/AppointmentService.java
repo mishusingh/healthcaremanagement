@@ -48,6 +48,7 @@ public class AppointmentService {
 
     }
 
+
     public AppointmentResponse getAppointmentById(Long appointmentId) {
         Appointment appointment = appointmentRepository.findById(appointmentId)
                 .orElseThrow(() -> new RuntimeException("Appointment not found"));
